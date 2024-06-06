@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/datasata0/cloud-huanghongfei/code/jin/main.py", line 2, in <module>
+    from loading_utils import prepare_data, prepare_af_data
+  File "/datasata0/cloud-huanghongfei/code/jin/loading_utils.py", line 8, in <module>
+    from text_dataset import TextBertDataset, TextBertRealDataset
+  File "/datasata0/cloud-huanghongfei/code/jin/text_dataset.py", line 6, in <module>
+    from noise_functions import make_data_noisy
+  File "/datasata0/cloud-huanghongfei/code/jin/noise_functions.py", line 5, in <module>
+    from text2vec import SentenceModel
+ImportError: cannot import name 'SentenceModel' from 'text2vec' (unknown location)
